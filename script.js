@@ -149,74 +149,72 @@
 // // // console.log(array);
 // // // array.unshift("hello"); // add elements in the first
 // // // console.log(array);
-// //  let arr1=[5,3,2,1]
-// // // console.log(arr1.sort());
-// // // console.log(arr1.reverse());
-// // // console.log(arr1.includes(5));
-// // // console.log(arr1.indexOf(2));
+//  let arr1=[5,3,2,1]
+console.log(arr1.sort()); console.log(arr1.reverse());
+ console.log(arr1.includes(5));
+ console.log(arr1.indexOf(2));
 
-// // // console.log(arr1);
-// // // arr1.slice(1,3);
-// // // console.log(arr1.slice(0,3));
-// //  arr2=[10,20,30];
-// // // console.log(arr2);
-// // // arr3=arr1.concat(arr2);
-// // // console.log(arr3);
+console.log(arr1);
+arr1.slice(1,3);
+console.log(arr1.slice(0,3));
+ arr2=[10,20,30];
+console.log(arr2); arr3=arr1.concat(arr2);
+ console.log(arr3);
 
 
-// // newarray=[...arr1]//spread of in js to copy
-// // arr4=[...arr2];
-// // console.log(newarray);
-// // console.log(arr4);
+// newarray=[...arr1]//spread of in js to copy
+// arr4=[...arr2];
+// console.log(newarray);
+// console.log(arr4);
 
 
-// // heiger order functions
+// heiger order functions
 
-// // let arr=[1,2,3,4,5];
-// // let nummul=arr.map(val=>val*2);
-// // console.log(nummul);
-
-
-// // let oddsum=arr.filter(val=>val%2!=0);
-// // console.log(oddsum);
-
-// // let numbers=arr.reduce((arr,val)=>arr*val,1);
-// // console.log(numbers);
-
-// //  Objects
-
-// User={
-//     username:"Sanjay",
-//     Age:20,
-//     city:"Chennai"
-
-//     Login(){
-//        console.log("Your are login ",User.); 
-//     }
-//     User2:{
-//         username:"mango",
-
-//     }
-
-// }
-// console.log(User);
-// console.log(User.username);
-// console.log(User.age);
-// console.log(User.city);
-// User.city="banglore";
-// console.log(User);
+// let arr=[1,2,3,4,5];
+// let nummul=arr.map(val=>val*2);
+// console.log(nummul);
 
 
-// Document object model
+// let oddsum=arr.filter(val=>val%2!=0);
+// console.log(oddsum);
+
+// let numbers=arr.reduce((arr,val)=>arr*val,1);
+// console.log(numbers);
+
+//  Objects
+
+User={
+    username:"Sanjay",
+    Age:20,
+    city:"Chennai"
+
+    Login(){
+       console.log("Your are login ",User.); 
+    }
+    User2:{
+        username:"mango",
+
+    }
+
+}
+console.log(User);
+console.log(User.username);
+console.log(User.age);
+console.log(User.city);
+User.city="banglore";
+console.log(User);
+
+
+Document object model
 
 
 function changeTitle(){
     let h1=document.getElementById('h1')
-    h1.innerHTML="Pambu ulagam"
+    h1.innerHTML="Pambu ulagam";
 }
 function trickortreat(){
     let h2=document.getElementById('h2')
-    h2.innerHTML="hello niggesh"
+    h2.innerHTML="hello";
 }
 
 
